@@ -11,7 +11,7 @@ The website simulates a course portal, where users can select courses and calcul
 
 - Sending data via the **GET** method
 - Use of control structures in PHP
-- Custom functions
+- Customized functions
 - Native PHP functions (`include`, `round`)
 - File separation for better organization (header, footer, etc.)
 - Styling with CSS3
