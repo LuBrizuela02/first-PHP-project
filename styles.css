@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background: linear-gradient(to bottom,#C5CAE9, #9FA8DA);
+}
+
+header {
+    background-color: #5C6BC0;
+    color: white;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+}
+
+nav ul {
+    list-style: none;
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s;
+}
+
+nav a:hover {
+    color: #E8EAF6;
+}
+
+h2, h3 {
+    margin: auto;
+    text-align: center;
+}
+
+.welcomeSubtitle, .coursesSubtitle {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 1200px;
+    padding: 2rem;
+    }
+
+/* Cursos */
+div {
+    padding: 2rem;
+    margin: 2rem auto;
+    max-width: 800px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.container section {
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin: 1rem;
+    box-shadow: 0 4px 10px #0000001a;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.container section:hover {
+    transform: translateY(-5px);
+}
+
+.containerCalculator {
+    margin: 1rem auto;
+    text-align: center;
+    padding: 2rem;
+}
+
+#inicio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+/* Imágenes de los cursos */
+.logo {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    margin: 1rem 0;
+    object-fit: contain;
+}
+
+/* Estilos específicos para los cursos */
+.phpCourse, .jsCourse, .htmlCourse {
+    border: 2px solid #3f51b5;
+    border-radius: 6px;
+}
+
+/* Calculadora de cursos */
+form {
+    background-color: transparent;
+    padding: 5px;
+}
+
+fieldset {
+    margin: 5px 0;
+    padding: 1rem;
+    border-radius: 10px;
+    border: 1px solid #5C6BC0;
+    text-align: justify;
+}
+
+legend {
+    padding: 0 6px;
+    font-weight: bold;
+    color: #3f51b5;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="checkbox"] {
+    margin-right: 0.5rem;
+}
+
+/* Botón Calcular total */
+.btn {
+    background-color: #5C6BC0;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 0.5rem 1.2rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.btn:hover {
+    background-color: #3f51b5;
+}
+
+footer {
+    text-align: center;
+    background: #5C6BC0;
+    color: white;
+    font-weight: bold;
+    padding: 1rem;
+}
